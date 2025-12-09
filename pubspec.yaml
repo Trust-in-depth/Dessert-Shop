@@ -1,0 +1,34 @@
+name: shredrek
+description: A secure file shredder application built with Flutter.
+publish_to: 'none' # pub.dev'de yayınlanmayacaksa 'none' olmalı
+
+version: 1.0.0+1
+
+environment:
+  # Bu, projenizin Dart SDK'sının 3.0.0 ve 4.0.0 arasında bir sürümünü gerektirdiğini belirtir.
+  # Bu kısıtlama, karşılaştığınız hatayı çözecektir.
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Uygulamanın temel işlevleri için gereken paketler
+  sqflite: ^2.3.0        # SQLite veritabanı desteği
+  path_provider: ^2.1.1  # Cihazdaki dosya yollarına erişim
+  crypto: ^3.0.3         # PIN hashleme ve güvenlik için
+  file_picker: ^8.3.7    # Kullanıcının dosya seçebilmesi için (Modül 1)
+  path: ^1.8.3           # Dosya yollarını yönetmek için
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+# Uygulama varlıkları (fontlar, resimler vb.)
+flutter:
+  uses-material-design: true
+  
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
