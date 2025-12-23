@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "202870514058",
+    "project_id": "ders7-flutter-project-3",
+    "storage_bucket": "ders7-flutter-project-3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202870514058:android:9dbf7e8ab3cc6dc488a873",
+        "android_client_info": {
+          "package_name": "com.example.ders7_flutter_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDUg3G1_3QdpdmnJjgQOMLDoNoZH4s95Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
